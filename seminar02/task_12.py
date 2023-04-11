@@ -6,16 +6,9 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 Sum, Mult = int(input("Введите сумму чисел - ")), int(input("Введите произведение чисел - "))
-# for i in range(Mult):
-#     for j in range(Sum):
-#         if i+j == Sum and i*j == Mult:
-#             print(i, j)
+for i in range(Mult):
+    for j in range(Sum):
+        if i+j == Sum and i*j == Mult:
+            print(i, j)
 
-sum = x + y
-mult = x * y
-
-for i in range(Sum + Mult):
-    if i == (Sum * i - Mult)**0.5:
-        res.append(i)
-print(*res if len(res) == 2 else res + res)
 
